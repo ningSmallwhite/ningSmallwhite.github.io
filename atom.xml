@@ -6,7 +6,7 @@
   <link href="http://ningsmallwhite.github.io/atom.xml" rel="self"/>
   
   <link href="http://ningsmallwhite.github.io/"/>
-  <updated>2022-08-17T09:21:50.809Z</updated>
+  <updated>2022-08-18T03:42:08.971Z</updated>
   <id>http://ningsmallwhite.github.io/</id>
   
   <author>
@@ -17,103 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>笔记</title>
-    <link href="http://ningsmallwhite.github.io/2022/08/17/biji/"/>
-    <id>http://ningsmallwhite.github.io/2022/08/17/biji/</id>
-    <published>2022-08-17T02:55:42.167Z</published>
-    <updated>2022-08-17T09:21:50.809Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;人们常觉得准备的阶段是在浪费时间，只有当真正机会来临，而自己没有能力把握的时候，才能觉悟自己平时没有准备才是浪费了时间。——法国：罗曼·罗兰&lt;/p&gt;
-&lt;h2 id=&quot;第七篇&quot;&gt;&lt;a href=&quot;#第七篇&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="笔记" scheme="http://ningsmallwhite.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="JavaScript" scheme="http://ningsmallwhite.github.io/tags/JavaScript/"/>
-    
-    <category term="HTML" scheme="http://ningsmallwhite.github.io/tags/HTML/"/>
-    
-    <category term="css" scheme="http://ningsmallwhite.github.io/tags/css/"/>
-    
-    <category term="VUE" scheme="http://ningsmallwhite.github.io/tags/VUE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>规划</title>
-    <link href="http://ningsmallwhite.github.io/2022/08/17/guihua/"/>
-    <id>http://ningsmallwhite.github.io/2022/08/17/guihua/</id>
-    <published>2022-08-17T01:38:58.985Z</published>
-    <updated>2022-08-17T09:23:03.980Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;当我们开始铺设职业之路时，同样也需要科学地选择和设定自己的目标顺序，一方面注意寻找新的目标，另一方面不断积累阅历，逐步实现人生发展计划。&lt;/p&gt;
-&lt;h2 id=&quot;第六篇&quot;&gt;&lt;a href=&quot;#第六篇&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="未来规划" scheme="http://ningsmallwhite.github.io/categories/%E6%9C%AA%E6%9D%A5%E8%A7%84%E5%88%92/"/>
-    
-    
-    <category term="未来" scheme="http://ningsmallwhite.github.io/tags/%E6%9C%AA%E6%9D%A5/"/>
-    
-    <category term="现在" scheme="http://ningsmallwhite.github.io/tags/%E7%8E%B0%E5%9C%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>问题</title>
-    <link href="http://ningsmallwhite.github.io/2022/08/17/wenti/"/>
-    <id>http://ningsmallwhite.github.io/2022/08/17/wenti/</id>
-    <published>2022-08-17T01:38:48.570Z</published>
-    <updated>2022-08-17T09:25:21.483Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;不开心的时候，尽量少说话多睡觉，鸡汤再有理，终究是别人的总结，故事再励志，也只是别人的经历，只有你自己才能改变自己，不求很成功，但求不后悔，你要明白，争气永远比生气聪明！&lt;/p&gt;
-&lt;h2 id=&quot;第五篇&quot;&gt;&lt;a href=&quot;#第五篇&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="问题" scheme="http://ningsmallwhite.github.io/categories/%E9%97%AE%E9%A2%98/"/>
-    
-    
-    <category term="JavaScript" scheme="http://ningsmallwhite.github.io/tags/JavaScript/"/>
-    
-    <category term="HTML" scheme="http://ningsmallwhite.github.io/tags/HTML/"/>
-    
-    <category term="css" scheme="http://ningsmallwhite.github.io/tags/css/"/>
-    
-    <category term="VUE" scheme="http://ningsmallwhite.github.io/tags/VUE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>专业</title>
-    <link href="http://ningsmallwhite.github.io/2022/08/17/zhuanye/"/>
-    <id>http://ningsmallwhite.github.io/2022/08/17/zhuanye/</id>
-    <published>2022-08-17T01:37:19.340Z</published>
-    <updated>2022-08-17T09:28:40.989Z</updated>
+    <link href="http://ningsmallwhite.github.io/2022/08/18/major/"/>
+    <id>http://ningsmallwhite.github.io/2022/08/18/major/</id>
+    <published>2022-08-18T03:41:30.000Z</published>
+    <updated>2022-08-18T03:42:08.971Z</updated>
     
     
       
@@ -141,11 +49,71 @@
   </entry>
   
   <entry>
+    <title>问题</title>
+    <link href="http://ningsmallwhite.github.io/2022/08/18/problem/"/>
+    <id>http://ningsmallwhite.github.io/2022/08/18/problem/</id>
+    <published>2022-08-18T03:38:28.000Z</published>
+    <updated>2022-08-18T03:40:08.713Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;不开心的时候，尽量少说话多睡觉，鸡汤再有理，终究是别人的总结，故事再励志，也只是别人的经历，只有你自己才能改变自己，不求很成功，但求不后悔，你要明白，争气永远比生气聪明！&lt;/p&gt;
+&lt;h2 id=&quot;第五篇&quot;&gt;&lt;a href=&quot;#第五篇&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="问题" scheme="http://ningsmallwhite.github.io/categories/%E9%97%AE%E9%A2%98/"/>
+    
+    
+    <category term="JavaScript" scheme="http://ningsmallwhite.github.io/tags/JavaScript/"/>
+    
+    <category term="HTML" scheme="http://ningsmallwhite.github.io/tags/HTML/"/>
+    
+    <category term="css" scheme="http://ningsmallwhite.github.io/tags/css/"/>
+    
+    <category term="VUE" scheme="http://ningsmallwhite.github.io/tags/VUE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>规划</title>
+    <link href="http://ningsmallwhite.github.io/2022/08/18/plan/"/>
+    <id>http://ningsmallwhite.github.io/2022/08/18/plan/</id>
+    <published>2022-08-18T03:29:34.000Z</published>
+    <updated>2022-08-18T03:30:21.066Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;当我们开始铺设职业之路时，同样也需要科学地选择和设定自己的目标顺序，一方面注意寻找新的目标，另一方面不断积累阅历，逐步实现人生发展计划。&lt;/p&gt;
+&lt;h2 id=&quot;第六篇&quot;&gt;&lt;a href=&quot;#第六篇&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="未来规划" scheme="http://ningsmallwhite.github.io/categories/%E6%9C%AA%E6%9D%A5%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="未来" scheme="http://ningsmallwhite.github.io/tags/%E6%9C%AA%E6%9D%A5/"/>
+    
+    <category term="现在" scheme="http://ningsmallwhite.github.io/tags/%E7%8E%B0%E5%9C%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>知识点</title>
-    <link href="http://ningsmallwhite.github.io/2022/08/17/xuexi/"/>
-    <id>http://ningsmallwhite.github.io/2022/08/17/xuexi/</id>
-    <published>2022-08-17T01:37:08.469Z</published>
-    <updated>2022-08-17T09:27:32.130Z</updated>
+    <link href="http://ningsmallwhite.github.io/2022/08/18/knowledge/"/>
+    <id>http://ningsmallwhite.github.io/2022/08/18/knowledge/</id>
+    <published>2022-08-18T03:27:38.000Z</published>
+    <updated>2022-08-18T03:28:09.116Z</updated>
     
     
       
@@ -173,11 +141,43 @@
   </entry>
   
   <entry>
+    <title>笔记</title>
+    <link href="http://ningsmallwhite.github.io/2022/08/18/note/"/>
+    <id>http://ningsmallwhite.github.io/2022/08/18/note/</id>
+    <published>2022-08-18T03:23:15.000Z</published>
+    <updated>2022-08-18T03:25:28.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;人们常觉得准备的阶段是在浪费时间，只有当真正机会来临，而自己没有能力把握的时候，才能觉悟自己平时没有准备才是浪费了时间。——法国：罗曼·罗兰&lt;/p&gt;
+&lt;h2 id=&quot;第七篇&quot;&gt;&lt;a href=&quot;#第七篇&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="http://ningsmallwhite.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JavaScript" scheme="http://ningsmallwhite.github.io/tags/JavaScript/"/>
+    
+    <category term="HTML" scheme="http://ningsmallwhite.github.io/tags/HTML/"/>
+    
+    <category term="css" scheme="http://ningsmallwhite.github.io/tags/css/"/>
+    
+    <category term="VUE" scheme="http://ningsmallwhite.github.io/tags/VUE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>介绍</title>
-    <link href="http://ningsmallwhite.github.io/2022/08/17/jiesao/"/>
-    <id>http://ningsmallwhite.github.io/2022/08/17/jiesao/</id>
-    <published>2022-08-17T01:34:44.455Z</published>
-    <updated>2022-08-17T09:25:09.202Z</updated>
+    <link href="http://ningsmallwhite.github.io/2022/08/18/introduce/"/>
+    <id>http://ningsmallwhite.github.io/2022/08/18/introduce/</id>
+    <published>2022-08-18T02:55:35.000Z</published>
+    <updated>2022-08-18T03:20:54.851Z</updated>
     
     
       
@@ -205,7 +205,7 @@
     <link href="http://ningsmallwhite.github.io/2022/08/16/hello-world/"/>
     <id>http://ningsmallwhite.github.io/2022/08/16/hello-world/</id>
     <published>2022-08-16T03:37:08.076Z</published>
-    <updated>2022-08-17T09:23:58.318Z</updated>
+    <updated>2022-08-18T02:14:42.722Z</updated>
     
     
       
@@ -218,7 +218,7 @@
     
     
     
-    <category term="博客搭建搭建" scheme="http://ningsmallwhite.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="http://ningsmallwhite.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
     <category term="搭建过程" scheme="http://ningsmallwhite.github.io/tags/%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
