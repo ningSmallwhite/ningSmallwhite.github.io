@@ -88,11 +88,11 @@ body.DarkMode .prev-next .article-badge {
     background-color: rgba(255, 255, 255, 0.6);
 }
 body.DarkMode header .side-nav .menu-list a {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: rgba(51, 175, 219, 0.6) !important;
 }
 
 body.DarkMode .mobile-menu-list a i {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: rgba(51, 175, 219, 0.6) !important;
 }
 body.DarkMode .bg-color {
     background-image:linear-gradient(to right, #282c34 0, rgba(52,50,50,0.7) 100%);
