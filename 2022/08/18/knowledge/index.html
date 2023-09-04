@@ -6,8 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="知识点, Ning">
     <meta name="description" content="虽然在学习的过程中会遇到许多不顺心的事，但古人说得好——吃一堑，长一智。多了一次失败，就多了一次教训；多了一次挫折，就多了一次经验。没有失败和挫折的人，是永远不会成功的。
-第三篇如何理解 HTML 语义化让人更容易读懂（增加代码可读性）。
-">
+第三篇如何理解 HTML 语义化HTML 让人更容易读懂（增加代码可">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -393,14 +392,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    272
+                    763
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -426,11 +425,8 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>虽然在学习的过程中会遇到许多不顺心的事，但古人说得好——吃一堑，长一智。多了一次失败，就多了一次教训；多了一次挫折，就多了一次经验。没有失败和挫折的人，是永远不会成功的。</p>
-<h2 id="第三篇"><a href="#第三篇" class="headerlink" title="第三篇"></a>第三篇</h2><h3 id="如何理解-HTML-语义化"><a href="#如何理解-HTML-语义化" class="headerlink" title="如何理解 HTML 语义化"></a>如何理解 HTML 语义化</h3><pre class=" language-HTML"><code class="language-HTML">让人更容易读懂（增加代码可读性）。
-让搜索引擎更容易读懂，有助于爬虫抓取更多的有效信息，爬虫依赖于标签来确定上下文和各个关键字的权重（SEO）。
-在没有 CSS 样式下，页面也能呈现出很好地内容结构、代码结构。
-</code></pre>
-<h3 id="Axios-是一个用于发起异步请求的技术："><a href="#Axios-是一个用于发起异步请求的技术：" class="headerlink" title="Axios 是一个用于发起异步请求的技术："></a>Axios 是一个用于发起异步请求的技术：</h3><h5 id="CDN-引入："><a href="#CDN-引入：" class="headerlink" title="CDN 引入："></a>CDN 引入：</h5><pre class=" language-JavaScript"><code class="language-JavaScript">script src="https://unpkg.com/axios/dist/axios.min.js"
+<h2 id="第三篇"><a href="#第三篇" class="headerlink" title="第三篇"></a>第三篇</h2><h3 id="如何理解-HTML-语义化"><a href="#如何理解-HTML-语义化" class="headerlink" title="如何理解 HTML 语义化"></a>如何理解 HTML 语义化</h3><p><code>HTML 让人更容易读懂（增加代码可读性）。 让搜索引擎更容易读懂，有助于爬虫抓取更多的有效信息，爬虫依赖于标签来确定上下文和各个关键字的权重（SEO）。 在没有 CSS 样式下，页面也能呈现出很好地内容结构、代码结构。</code></p>
+<h3 id="Axios-是一个用于发起异步请求的技术："><a href="#Axios-是一个用于发起异步请求的技术：" class="headerlink" title="Axios 是一个用于发起异步请求的技术："></a>Axios 是一个用于发起异步请求的技术：</h3><h5 id="CDN-引入："><a href="#CDN-引入：" class="headerlink" title="CDN 引入："></a>CDN 引入：</h5><pre class=" language-JavaScript"><code class="language-JavaScript">src="https://unpkg.com/axios/dist/axios.min.js"
 </code></pre>
 <h5 id="发送-GET-请求："><a href="#发送-GET-请求：" class="headerlink" title="发送 GET 请求："></a>发送 GET 请求：</h5><pre class=" language-JavaScript"><code class="language-JavaScript">axios.get("http://localhost:8081/user",{ params: { id: id }, headers: { token: token }})
 .then(res => {
@@ -450,12 +446,50 @@
 </code></pre>
 <!-- More info: [Server](https://hexo.io/docs/server.html) -->
 
-<h3 id="待添加。。。"><a href="#待添加。。。" class="headerlink" title="待添加。。。"></a>待添加。。。</h3><pre class=" language-bash"><code class="language-bash">待添加。。。
+<h2 id="async-x2F-await"><a href="#async-x2F-await" class="headerlink" title="async/await"></a>async/await</h2><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>async/await是非常棒的语法糖，可以说他是解决异步问题的最终解决方案。从字面意思来理解。async 是异步的意思，而 await 是 等待 ，所以理解 async用于申明一个function是异步的，而 await 用于等待一个异步方法执行完成。</p>
+<h2 id="async作用"><a href="#async作用" class="headerlink" title="async作用"></a>async作用</h2><p>async声明function是一个异步函数，返回一个promise对象，可以使用 then 方法添加回调函数。async函数内部return语句返回的值，会成为then方法回调函数的参数。</p>
+<h2 id="await"><a href="#await" class="headerlink" title="await"></a>await</h2><p>await 操作符只能在异步函数 async function 内部使用。如果一个 Promise 被传递给一个 await 操作符，await 将等待 Promise 正常处理完成并返回其处理结果，也就是说它会阻塞后面的代码，等待 Promise 对象结果。如果等待的不是 Promise 对象，则返回该值本身。</p>
+<h2 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h2><p>如果await后面的异步操作出错，那么等同于async函数返回的 Promise 对象被reject。</p>
+<pre class=" language-JavaScript"><code class="language-JavaScript">async function test() {
+  await Promise.reject('错误了')
+};
+
+test().then(res=>{
+  console.log('success',res);
+},err=>{
+  console.log('err ',err);
+})
+// err 错误了
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="待添加。。。-1"><a href="#待添加。。。-1" class="headerlink" title="待添加。。。"></a>待添加。。。</h3><pre class=" language-bash"><code class="language-bash">待添加。。。
+<p>防止出错的方法，也是将其放在try…catch代码块之中。</p>
+<pre class=" language-JavaScript"><code class="language-JavaScript">async function test() {
+  try {
+    await new Promise(function (resolve, reject) {
+      throw new Error('错误了');
+    });
+  } catch(e) {
+      console.log('err', e)
+  }
+  return await('成功了');
+}
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>多个await命令后面的异步操作，如果不存在继发关系（即互不依赖），最好让它们同时触发。</p>
+<pre class=" language-JavaScript"><code class="language-JavaScript">let foo = await getFoo();
+let bar = await getBar();
+// 上面这样写法 getFoo完成以后，才会执行getBar
+
+// 同时触发写法 ↓
+
+// 写法一
+let [foo, bar] = await Promise.all([getFoo(), getBar()]);
+
+// 写法二
+let fooPromise = getFoo();
+let barPromise = getBar();
+let foo = await fooPromise;
+let bar = await barPromise;
+</code></pre>
+<h2 id="async-x2F-await优点"><a href="#async-x2F-await优点" class="headerlink" title="async/await优点"></a>async/await优点</h2><p>async/await的优势在于处理由多个Promise组成的 then 链，在之前的Promise文章中提过用then处理回调地狱的问题，async/await相当于对promise的进一步优化。<br>假设一个业务，分多个步骤，且每个步骤都是异步的，而且依赖上个步骤的执行结果。</p>
 
                 
             </div>
@@ -850,7 +884,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2022</span>
+                <span id="year">2022-2023</span>
             
             <a href="/about" target="_blank">Ning</a>
             |&nbsp;技术支持&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -858,7 +892,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.1k</span>
+                        class="white-color">1.6k</span>
             
             
             
