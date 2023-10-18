@@ -6,12 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="专业, Ning">
     <meta name="description" content="能力配不上野心，是所有烦扰的根源。这个世界是公平的，你要想得到，就得学会付出和坚持。每个人都是通过自己的努力，去决定生活的样子。
-第四篇待添加。。。待添加。。。
-
-百度: 一下
-待添加。。。待添加。。。
-
-More info: Server">
+第四篇Promise是什么Promise 是异步编程的一种解决方案,简单说就是一个容器，里面保存着某个未来才会">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -58,9 +53,9 @@ More info: Server">
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Ning" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Ning" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -397,14 +392,14 @@ More info: Server">
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    97
+                    819
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -430,18 +425,22 @@ More info: Server">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>能力配不上野心，是所有烦扰的根源。这个世界是公平的，你要想得到，就得学会付出和坚持。每个人都是通过自己的努力，去决定生活的样子。</p>
-<h2 id="第四篇"><a href="#第四篇" class="headerlink" title="第四篇"></a>第四篇</h2><h3 id="待添加。。。"><a href="#待添加。。。" class="headerlink" title="待添加。。。"></a>待添加。。。</h3><pre class=" language-sql"><code class="language-sql">待添加。。。
-</code></pre>
-<p>百度: <a target="_blank" rel="noopener" href="https://www.baidu.com/">一下</a></p>
-<h3 id="待添加。。。-1"><a href="#待添加。。。-1" class="headerlink" title="待添加。。。"></a>待添加。。。</h3><pre class=" language-bash"><code class="language-bash">待添加。。。
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="待添加。。。-2"><a href="#待添加。。。-2" class="headerlink" title="待添加。。。"></a>待添加。。。</h3><pre class=" language-bash"><code class="language-bash">待添加。。。
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="待添加。。。-3"><a href="#待添加。。。-3" class="headerlink" title="待添加。。。"></a>待添加。。。</h3><pre class=" language-bash"><code class="language-bash">待添加。。。
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="第四篇"><a href="#第四篇" class="headerlink" title="第四篇"></a>第四篇</h2><h3 id="Promise是什么"><a href="#Promise是什么" class="headerlink" title="Promise是什么"></a>Promise是什么</h3><p><code>Promise 是异步编程的一种解决方案,简单说就是一个容器，里面保存着某个未来才会结束的事件的结果。 从语法上说，Promise 是一个对象，从它可以获取异步操作的消息。</code><br><code>Promise的实例有三个状态: Pending（进行中） Resolved（已完成） Rejected（已拒绝）</code><br>当把一件事情交给promise时，它的状态就是Pending，任务完成了状态就变成了Resolved、没有完成失败了就变成了Rejected。<br>Promise.then()（微任务）</p>
+<p>Promise的实例有两个过程<br>pending -&gt; fulfilled : Resolved（已完成）<br>pending -&gt; rejected：Rejected（已拒绝）<br>需要注意：一旦从进行状态变成为其他状态就永远不能更改状态了</p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p>1、将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数。流程更加清晰，代码更加优雅。<br>2、Promise对象提供统一的接口，使得控制异步操作更加容易。</p>
+<h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><p>1、无法取消Promise，一旦新建它就会立即执行，无法中途取消。<br>2、如果不设置回调函数，Promise内部抛出的错误，不会反应到外部。<br>3、当处于pending状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）。</p>
+<h3 id="同步任务和异步任务"><a href="#同步任务和异步任务" class="headerlink" title="同步任务和异步任务"></a>同步任务和异步任务</h3><blockquote><p>1、同步任务： 在主线程上排队执行的任务，只有前一个任务执行完毕，才能执行后一个任务。是由 js 执行栈/回调栈执行的</p>
+<p>2、异步任务： 不进入主线程、而进入任务队列的任务，当主线程中的任务运行完成了，才会从任务队列中取出异步任务，放入主线程中执行</p>
+<p>微任务和宏任务都是异步任务，它们都属于一个队列</p>
+<p>宏任务是由宿主环境发起的，比如浏览器、Node等，宏任务的异步代码有：<br>script（代码块）<br>setTimeout / setInterval 定时器<br>setImmediate 定时器<br>……等等</p>
+<p>微任务是由JS引擎发起的，微任务的异步代码有：<br>process.nextTick (node)<br>Promise.then( )/catch( ) 。注意，Promise本身同步，只是它里面的then/catch的回调函数是异步的微任务<br>Async/Await<br>Object.observe<br>……等等</p>
+</blockquote>
+
+<h3 id="任务的执行顺序"><a href="#任务的执行顺序" class="headerlink" title="任务的执行顺序"></a>任务的执行顺序</h3><blockquote><p>执行顺序就为： 同步任务 —&gt; 微任务 —&gt; 宏任务</p>
+</blockquote>
+
+<h3 id="宏任务与微任务区别"><a href="#宏任务与微任务区别" class="headerlink" title="宏任务与微任务区别"></a>宏任务与微任务区别</h3><blockquote><p>执行顺序：每次事件循环迭代结束时，只执行一次宏任务。而在执行完宏任务后，如果有微任务存在，则会立即执行所有的微任务。因此，微任务会比宏任务更快地执行。<br>执行时机：宏任务的执行时机较为固定，例如定时器、异步函数等。而微任务的执行时机则取决于其所在的任务队列是否被清空。如果一个微任务队列中还有任务，那么这些任务会在下一个宏任务执行前被全部执行。</p>
+</blockquote>
 
                 
             </div>
@@ -854,7 +853,7 @@ More info: Server">
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">2.3k</span>
+                        class="white-color">3k</span>
             
             
             
